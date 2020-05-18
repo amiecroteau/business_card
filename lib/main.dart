@@ -47,11 +47,11 @@ class MyApp extends StatelessWidget {
                   padding: const EdgeInsets.all(1.0),
                   child: ListTile(
                     leading: Icon(Icons.link, color: Colors.teal, size: 20.0),
-                    title: Text('https://www.linkedin.com/in/amie-croteau/',
+                    title: Text('portfoliolink.com',
                         style: TextStyle(
                           color: Colors.teal.shade900,
                           fontFamily: 'SourceSansPro',
-                          fontSize: 15.0,
+                          fontSize: 20.0,
                         )),
                   ),
                 ),
@@ -63,11 +63,11 @@ class MyApp extends StatelessWidget {
                   padding: const EdgeInsets.all(1.0),
                   child: ListTile(
                     leading: Icon(Icons.mail, color: Colors.teal, size: 20.0),
-                    title: Text('amiecroteau@email.com',
+                    title: Text('acroteau@email.com',
                         style: TextStyle(
                           color: Colors.teal.shade900,
                           fontFamily: 'SourceSansPro',
-                          fontSize: 15.0,
+                          fontSize: 20.0,
                         )),
                   ),
                 ),
