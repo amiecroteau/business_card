@@ -18,21 +18,12 @@ class MyApp extends StatelessWidget {
                 radius: 50.0,
                 backgroundImage: AssetImage('images/download.png'),
               ),
-              Text('Amie Croteau',
+              Text('Aidly',
                   style: TextStyle(
-                    fontFamily: 'Pacifico',
+                    fontFamily: 'SourceSansPro-Light',
                     fontSize: 40.0,
                     color: Colors.white,
                   )),
-              Text(
-                'SOFTWARE ENGINEER ASSOCIATE',
-                style: TextStyle(
-                  fontFamily: 'SourceSansPro',
-                  fontSize: 20.0,
-                  color: Colors.teal[100],
-                  letterSpacing: 2.5,
-                ),
-              ),
               SizedBox(
                 height: 20.0,
                 width: 150.0,
@@ -46,8 +37,8 @@ class MyApp extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(1.0),
                   child: ListTile(
-                    leading: Icon(Icons.link, color: Colors.teal, size: 20.0),
-                    title: Text('portfoliolink.com',
+                    leading: Icon(Icons.mail, color: Colors.teal, size: 20.0),
+                    title: Text('Email',
                         style: TextStyle(
                           color: Colors.teal.shade900,
                           fontFamily: 'SourceSansPro',
@@ -62,8 +53,8 @@ class MyApp extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(1.0),
                   child: ListTile(
-                    leading: Icon(Icons.mail, color: Colors.teal, size: 20.0),
-                    title: Text('acroteau@email.com',
+                    leading: Icon(Icons.lock, color: Colors.teal, size: 20.0),
+                    title: Text('Password',
                         style: TextStyle(
                           color: Colors.teal.shade900,
                           fontFamily: 'SourceSansPro',
